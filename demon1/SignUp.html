@@ -1,0 +1,96 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootswatch.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+</head>
+
+<body class="pd-0">
+    <div id="wrap">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">SafeTrack</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Ahmed Sayed</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">Logout</a></li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+<div class="container">
+  <div  class="row">
+    <div class="col-xs-12">
+      <div class="well bs-component">
+        <form class="form-horizontal" action="http://75.102.229.38:8080/demon/signupservlet" method="POST">
+             <fieldset>
+               <legend>Fill in the Emergency Contact Details</legend>
+               <div class="form-group">
+                 <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                 <div class="col-lg-10">
+                   <input type="text" class="form-control" id="inputEmail" name="emailId" placeholder="Email">
+                 </div>
+               </div>
+               <div class="form-group">
+                 <label for="inputEmail" class="col-lg-2 control-label">Emergency Email Id</label>
+                 <div class="col-lg-10">
+                   <input type="text" class="form-control" id="inputEmail" name="eemailId" placeholder="Email">
+                 </div>
+               </div>
+               <div class="form-group">
+                 <label for="firstName" class="col-lg-2 control-label">Full Name</label>
+                 <div class="col-lg-10">
+                   <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Depaul Hacker">
+                 </div>
+               </div>
+               <div class="form-group">
+                 <label for="phoneNumber" class="col-lg-2 control-label">Contact Number</label>
+                 <div class="col-lg-10">
+                   <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="+16304077735">
+                 </div>
+               </div>
+               <div class="form-group">
+                 <div class="col-lg-10 col-lg-offset-2 text-right">
+                   <button type="reset" class="btn btn-default">Cancel</button>
+                   <button type="submit" class="btn btn-primary">Submit</button>
+                 </div>
+                </div>
+             </fieldset>
+           </form>
+         </div>
+       </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+</div>
+
+<!--  Footer Starts -->
+<div id="footer">
+    <div class="container text-center">
+        <p class="text-muted credit mrT-20"><span class="glyphicon glyphicon-copyright-mark"></span> Copyright, 2017 - SafeTrack <a target="_blank" href="">(www.SafeTrack.com)</a></p>
+    </div>
+</div>
+</body>
+</html>
